@@ -10,11 +10,13 @@ NASA: The project utilizes climate-related data provided by NASA
 
 **Technologies and Tools**
 
-* Python: Primary programming language used for analysis.
-* NLTK (Natural Language Toolkit): Employed for text processing, including tokenization, stop words removal, and other preprocessing tasks.
-* Punkt: A tokenizer from NLTK used to split a text into sentences or words.
-* RoBERTa: A transformer-based machine learning model used for sentiment analysis, fine-tuned for understanding climate change-related sentiments.
-* VADER (Valence Aware Dictionary and sEntiment Reasoner): A lexicon and rule-based sentiment analysis tool specifically tuned for social media texts, used for comparative sentiment analysis.
+* Python
+* NLTK: For text preprocessing and tokenization.
+* Punkt: Sentence tokenizer.
+* RoBERTa: For advanced sentiment analysis.
+* VADER: For rule-based sentiment analysis.
+* Scikit-learn: For implementing Naive Bayes and Random Forest Classifiers.
+* Matplotlib/Seaborn: For data visualization.
 
 **Project Structure**
 
@@ -27,4 +29,6 @@ NASA: The project utilizes climate-related data provided by NASA
 
 **Results**
 
-The analysis provides insights into the public’s evolving sentiment toward climate change, correlated with real-world climate data trends. The findings can help policymakers, researchers, and activists better understand public perception and tailor communication strategies accordingly.
+The Naive Bayes Classifier achieved an accuracy of 45%.
+The Random Forest Classifier achieved an accuracy of 56%.
+The sentiment distribution and accuracy metrics were visualized to understand the model's performance and the sentiment trends in climate change discussions.
